@@ -1,0 +1,4 @@
+### Upload a file
+POST http://localhost:8080/file
+Content-Disposition: form-data; name="file"; filename="main.http"
+Content-Type: application/json
